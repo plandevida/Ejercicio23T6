@@ -35,6 +35,7 @@
 		3E0974B317037378007471CF /* Pila.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pila.h; sourceTree = "<group>"; };
 		3E0974B417037378007471CF /* PilaE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PilaE.h; sourceTree = "<group>"; };
 		3E0974B517037378007471CF /* PilaLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PilaLE.h; sourceTree = "<group>"; };
+		3E0974B6170378CD007471CF /* ListaConInversos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListaConInversos.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				3E0974B017037378007471CF /* DCola.h */,
 				3E0974B117037378007471CF /* Excepciones.h */,
 				3E0974B217037378007471CF /* Lista.h */,
+				3E0974B6170378CD007471CF /* ListaConInversos.h */,
 				3E0974B317037378007471CF /* Pila.h */,
 				3E0974B417037378007471CF /* PilaE.h */,
 				3E0974B517037378007471CF /* PilaLE.h */,

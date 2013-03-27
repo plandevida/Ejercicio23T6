@@ -7,12 +7,30 @@
 //
 
 #include <iostream>
+#include "ListaConInversos.h"
 
-int main(int argc, const char * argv[])
-{
+int main(int argc, const char * argv[]) {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    ListaConInversos<int> a;
+    
+    for (int i = 0; i < 10; i++) {
+        a.ponDr(i);
+    }
+    
+    ListaConInversos<int>::Iterador it = a.principio();
+    ListaConInversos<int>::IteradorInverso itInverso = a.principioInverso();
+    
+    while(it != a.final()) {
+        std::cout << it.elem();
+        it.avanza();
+    }
+    std::cout << std::endl;
+    
+    while (itInverso != a.finalInverso()) {
+        std::cout << itInverso.elem();
+        itInverso.avanzaInverso();
+    }
+    
     return 0;
 }
 
